@@ -8,7 +8,7 @@ CodeBook
 
 ###<a name="thequestion"/></a>Question
 
-The exercise is to
+Data cleaning excerise, reformatting large dataset into smaller cleaner version for asking further questions.
 
 ###<a name="sourcedata"></a>Source Data
 

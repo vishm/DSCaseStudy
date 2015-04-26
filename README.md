@@ -12,7 +12,8 @@ Files
 |File|Description|
 |---|---|
 | run_analysis.R|All the data clean up & transformation code is encoded within this file.|
-| tidy_data.txt | Resultant dataset once run throught R script using dataset mentioned above as the source |
+| tidy_data.txt | Resultant dataset once run through R script using dataset mentioned above as the source |
+|[CodeBook.md](CodeBook.md)|Description of data clensing process and data|
 
 Tidy Data
 =========

@@ -13,7 +13,7 @@ Data cleaning excerise, reformatting large dataset into smaller cleaner version 
 ###<a name="sourcedata"></a>Source Data
 
 The source  [dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-has been used for this study, is the collection of measurement data that has been collected from 30 individuals of the age 19-48yrs during 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The measured accelerometer and gyroscope data has been gathered through a Samsung Galaxy SII  that has been strapped to the waist of the subjects.
+has been used for this study, is the collection of measurement data that has been collected from 30 individuals / subject_ids of the age 19-48yrs during 6 activities. The measured accelerometer and gyroscope data has been gathered through a Samsung Galaxy SII  that has been strapped to the waist of the subjects.
 
 The zipped dataset contains further details on the source data collected and the individual fields (see features_info.txt).
 
@@ -32,7 +32,7 @@ The main objective for this operation is to construct single unified dataset bas
 The single resultant dataset contains:
 
 - subject_id - ID of the subject that the record of measurement pertains to.
-- activity - activity undertaken when measurement was gathered
+- activity - activity undertaken when measurement was gathered. This will be one of the following "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 
 this is then followed by the mean() and std() or the following measures.
 

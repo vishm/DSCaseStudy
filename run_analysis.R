@@ -47,9 +47,8 @@ loadData <- function(folder, datasettype) {
     
     # join/merge all the dataset    
     all <- 
-        bind_cols(subject, x_train) %>% 
-        bind_cols(select(y_train, activity))
-    
+        bind_cols(subject, select(y_train, activity)) %>% 
+        bind_cols(x_train)    
     
     all
 }
